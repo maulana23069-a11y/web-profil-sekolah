@@ -328,3 +328,22 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* KARTU INFORMASI SEJARAH */
+
+.history-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.history-details .info-card {
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .history-details {
+        grid-template-columns: 1fr;
+    }
+}
